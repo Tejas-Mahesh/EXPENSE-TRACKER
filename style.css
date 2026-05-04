@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.balance {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.summary div {
+    width: 48%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.income {
+    background: #e6f9f0;
+    color: green;
+}
+
+.expense {
+    background: #ffe6e6;
+    color: red;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    border-right: 5px solid;
+}
+
+li.plus {
+    border-color: green;
+}
+
+li.minus {
+    border-color: red;
+}
+
+button.delete {
+    background: red;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
