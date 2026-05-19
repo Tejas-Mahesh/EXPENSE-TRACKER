@@ -83,7 +83,10 @@ form {
 }
 
 form input, form button {
-
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4.5px;
+    border: 1px solid #ccc;
 }
 
 form button {
