@@ -52,7 +52,12 @@ ul {
 }
 
 li {
-    
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 9px 0;
+    display: flex;
+    justify-content: space-between;
+    border-right: 5px solid;  
 }
 
 li.plus {
